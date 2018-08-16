@@ -107,7 +107,7 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     user-select: none;
     opacity: 0;
-    display: none;
+
     visibility: hidden;
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
@@ -115,7 +115,7 @@ body {
 
 .show-modal {
     opacity: 1;
-    display: block;
+  
     visibility: visible;
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;

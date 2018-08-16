@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pop-up modal example with JavaScript</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<!-- Animated Background -->
+<div id="large-header" class="large-header">
+    <canvas id="demo-canvas"></canvas>
+    <div class="page-content">
+        <h1>Pop-up modal example with <span>JavaScript</span></h1>
+
+        <!-- Open the modal with a button -->
+        <button type="button" id="openModalBtn">Open Modal</button>
+    </div>
+</div>
+
+<!-- Uninstall alert pop-up modal -->
+<div class="alert-modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+
+        <div class="modal-header">
+                <span class="close-btn">
+                    <img src="img/icon-popup-close-fix.svg" alt="Close icon" title="Close">
+                </span>
+        </div>
+
+        <div class="modal-body">
+            <p class="warning">
+                <img src="img/icon-warning_notify-red.svg" alt="Warning icon">
+            </p>
+            <p>Are you sure you want to install the Shazam app</p>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="default-btn" title="Cancel">Cancel</button>
+            <button type="button" class="red-btn" title="Uninstall">Uninstall</button>
+        </div>
+
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<!-- Animated Background scripts -->
+<script src="plugins/3d-lines/TweenLite.min.js"></script>
+<script src="plugins/3d-lines/EasePack.min.js"></script>
+<script src="plugins/3d-lines/rAF.js"></script>
+<script src="plugins/3d-lines/demo-1.js"></script>
+
+</body>
+</html>
